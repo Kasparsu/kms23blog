@@ -16,3 +16,5 @@ Route::get('/posts', [PublicController::class, 'index']);
 Route::get('/posts/{post}', [PublicController::class, 'post']);
 Route::post('/register', [RegisteredUserController::class, 'store']);
 Route::post('/login', [AuthenticatedSessionController::class, 'store']);
+
+
